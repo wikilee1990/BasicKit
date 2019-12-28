@@ -1,0 +1,22 @@
+PODS:
+  - BasicKit (1.0.0):
+    - XKit
+  - XKit (0.3.1)
+
+DEPENDENCIES:
+  - BasicKit (from `../`)
+  - XKit (from `../../../MyLibs/XKit`)
+
+EXTERNAL SOURCES:
+  BasicKit:
+    :path: "../"
+  XKit:
+    :path: "../../../MyLibs/XKit"
+
+SPEC CHECKSUMS:
+  BasicKit: 001ef8303c1bd467dc53edd5859917c14417a03b
+  XKit: d548ebebbc5c74d223e4e911ad96a3c0ae8bb6c5
+
+PODFILE CHECKSUM: 8d8649341783c75afefc21c86702ea5b6e64d51b
+
+COCOAPODS: 1.8.4

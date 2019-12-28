@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BasicKit'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'A short description of BasicKit.'
 
 # This description is used to generate tags and improve search results.
@@ -25,18 +25,13 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Tyrant' => 'appledevelop@gichain.net' }
-  s.source           = { :git => 'https://github.com/Tyrant/BasicKit.git', :tag => s.version.to_s }
+  s.source           = { :git => 'git@114.242.31.175:wangzhichen/BasicKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
 
-  s.source_files = 'BasicKit/Classes/**/*'
+  s.source_files = 'BasicKit/**/*'
   
-  # s.resource_bundles = {
-  #   'BasicKit' => ['BasicKit/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'XKit'
+  
 end

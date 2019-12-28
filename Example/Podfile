@@ -1,6 +1,9 @@
 use_frameworks!
 
 target 'BasicKit_Example' do
+  
+  pod 'XKit', :path => '../../../MyLibs/XKit'
+  
   pod 'BasicKit', :path => '../'
 
   target 'BasicKit_Tests' do
