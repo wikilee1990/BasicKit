@@ -20,7 +20,7 @@ public final class Studio {
     
     
     /// 最近一次播放的音频
-    var latestPaly: SystemSoundID?// = 0
+    lazy var latestPaly: SystemSoundID? = 0
     
     public enum Audio {
         
